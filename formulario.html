@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    </head>
+<body>
+    <header>
+       <legend>
+            <h1><strong>Formulário de Cadastro</strong></h1>
+        </legend> 
+    </header> 
+    <br>
+<section>
+     <form>
+        <fieldset>
+            <legend>Dados do usuário</legend>
+                <div>
+                <span>
+                     <label for="nome" nome>Nome</label>
+                        <input id="nome" type="text" required>
+                        <br>
+                        <label for="sobrenome" sobrenome>Sobrenome</label>
+                        <input id="sobrenome" type="text" required>
+                        <br>
+                        <label for="Data">Data de nascimento</label>
+                        <input type="date" >
+                        <br>                       
+                        <label for="CPF">CPF</label>
+                        <input id="CPF" type="text" required maxlength="14">
+                        <br>
+                        <label for="RG">RG</label>
+                        <input type="text" placeholder="" required>
+                        <br>
+                        <label for="Telefone" >Telefone</label>
+                        <input type="tel" placeholder="()" required>
+                    </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="Estado">Estado</label>
+            <select name="Estado" id="estado" required>
+            <option disabled selected>Selecione um estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            </select>
+                 <legend>Endereço</legend>
+                    <div>
+                        <label for="Cidade">Cidade</label>
+                        <input type="text" placeholder="Sua Cidade" required>
+                        <br>
+                        <label for="CEP">CEP</label>
+                        <input type="text" placeholder="Digite CEP" required>
+                        </div>
+                        <div>
+                        <label for="">Rua</label>
+                        <input type="text" placeholder="Nome da Rua" required>
+                        <br>
+                        <label for="">Número</label>
+                        <input type="text" placeholder="Número Sua Casa" required>
+                        <br>
+                        <label for="">Completemento</label>
+                        <input type="text" placeholder="Opcional" >
+                        </div>
+                        <br>
+                        <fieldset>
+                <legend>Configuração da conta</legend>
+        </fieldset>
+
+
+             
+    </form>
+</section>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
